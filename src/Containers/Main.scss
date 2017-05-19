@@ -1,0 +1,43 @@
+
+.swapi-page-container {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  h1 {
+    margin: 0;
+    font-size: 4em;
+  }
+  p {
+    margin: 0;
+  }
+}
+.swapi-begin-button {
+  width: 150px;
+  padding: 10px;
+  margin: 10px;
+  background-color: silver;
+  border-radius: 10px;
+  border: 2px solid dimgrey;
+  text-align: center;
+}
+.star-wars-logo {
+  margin-top: 5px;
+  width: 300px;
+  height: 150px;
+  background-image: url('../images/Star-Wars-Silver.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.profile-card {
+  width: 300px;
+  height: 350px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid silver;
+  border-radius: 4px;
+}

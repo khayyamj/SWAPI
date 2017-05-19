@@ -3,12 +3,6 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
-  background-image: url("./images/K.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  h1 {
-    text-align: center;
-    color: brown;
-  }
+  background-image: url('./images/star-background.jpeg');
+  background-size: 100%;
 }

@@ -2,7 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './app.scss'
 
+import Main from './Containers/Main'
+
 ReactDOM.render(
-  <h1>Hello, world!</h1>,
+  <Main />,
   document.getElementById('root')
 )
